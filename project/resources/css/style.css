@@ -41,7 +41,12 @@ span {
   font-weight: 900;
   font-size: 7rem;
   color: rgb(255, 255, 255);
+
 }
 .card:hover {
   cursor: pointer;
+  background-image: url(https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19225294_10211854141321688_7026884203729265969_n.jpg?_nc_cat=0&oh=5b26424c515707cfabd14cdb692d2229&oe=5B6203F4);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
