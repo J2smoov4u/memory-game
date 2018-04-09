@@ -2,7 +2,7 @@ html, body {
   font-size: 17px;
   font-family: "Work Sans", sans-serif;
   /*background-color: gray;*/
-  background-image:linear-gradient(black, gray, white, gray, black);
+
   /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -12,27 +12,29 @@ html, body {
 body {
   min-height: 100%;
   margin: 0;
+  background-image:linear-gradient(#00ff7f, #40e0d0, white, #40e0d0, #00ff7f);
+
 }
 h1 {
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: #708090;
   margin-top: 0;
   margin-bottom: 2rem;
-  text-shadow: 2px 2px 2px 2px darkred, 2px 2px 2px 2px lightgray;
+  text-shadow: 2px 2px white;
   text-align: center;
 }
 h3 {
   text-align: center;
   font-weight: bold;
   color:#708090;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 3rem;
 }
 p {
   /*color: rgb(74, 74, 74);*/
-  color: rgb(255, 255, 255);
-  font-size: 1rem;
+  color: 	#da70d6;
+  font-size: 1.5rem;
 }
 span {
   font-weight: 900;
@@ -43,7 +45,7 @@ span {
   font-weight: bold;
   color:#708090;
   font-size: 1.5rem;
-
+  text-shadow: 2px 2px white;
 }
 
 
@@ -53,6 +55,7 @@ span {
 .container {
   margin-top: 5.25rem;
   width: 90%;
+  height: 100%;
 }
 .card {
   display: flex;
@@ -61,7 +64,7 @@ span {
   height: 12.5rem;
   max-width: 12.5rem;
   background-color: rgb(32, 54, 86);
-  border: 4px solid #fff;
+  border: 4px solid #da70d6;
   border-radius: 100px;
   box-shadow: 2px 2px 2px 2px gray, 2px 2px 2px black, 2px 2px 2px white;
   font-weight: 900;
@@ -70,27 +73,30 @@ span {
 
 
 }
+.card:active {
+
+}
 .card:hover {
   cursor: pointer;
-  /*background-image: url(https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19225294_10211854141321688_7026884203729265969_n.jpg?_nc_cat=0&oh=5b26424c515707cfabd14cdb692d2229&oe=5B6203F4);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;*/
+  /*background-image: linear-gradient(#da70d6, #dda0dd, #d8bfd8, white);*/
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
   }
   p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .bold {
     font-size: 2.5rem;
   }
   #game {
     margin: 1rem 0.5rem;
+  }
+  .big {
+    font-size: 2rem;
   }
   h3 {
     text-align: center;
@@ -100,4 +106,13 @@ span {
     margin: 3rem;
   }
   .card {margin: 5px;}
+  .card:hover {
+    background-image: none;
+  }
+}
+
+@media only screen (max-width: 480px) {
+  h3 {
+    font-size: 2.5rem;
+  }
 }
