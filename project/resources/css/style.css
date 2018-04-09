@@ -1,17 +1,26 @@
 html, body {
   font-size: 17px;
   font-family: "Work Sans", sans-serif;
-  background-color: gray;
+  /*background-color: gray;*/
+  background-image:linear-gradient(black, gray, white, gray, black);
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
+
 h1 {
   font-weight: bold;
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 4rem;
+  color: #708090;
   margin-top: 0;
+  text-align: center;
+  margin-bottom: 2rem;
+
 }
 p {
   /*color: rgb(74, 74, 74);*/
   color: rgb(255, 255, 255);
+  font-size: 2rem;
 }
 span {
   font-weight: 900;
@@ -20,7 +29,12 @@ span {
 }
 .bold {
   font-weight: bold;
-  color:#000;
+  color:#708090;
+  font-size: 2.5rem;
+
+}
+#game {
+  margin-top: 1rem;
 }
 
 .instructions {
@@ -28,6 +42,7 @@ span {
 }
 .container {
   margin-top: 5.25rem;
+  width: 90%;
 }
 .card {
   display: flex;
@@ -37,16 +52,17 @@ span {
   max-width: 12.5rem;
   background-color: rgb(32, 54, 86);
   border: 4px solid #fff;
-  border-radius: 8px;
+  border-radius: 100px;
   font-weight: 900;
   font-size: 7rem;
   color: rgb(255, 255, 255);
 
+
 }
 .card:hover {
   cursor: pointer;
-  background-image: url(https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19225294_10211854141321688_7026884203729265969_n.jpg?_nc_cat=0&oh=5b26424c515707cfabd14cdb692d2229&oe=5B6203F4);
+  /*background-image: url(https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/19225294_10211854141321688_7026884203729265969_n.jpg?_nc_cat=0&oh=5b26424c515707cfabd14cdb692d2229&oe=5B6203F4);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
