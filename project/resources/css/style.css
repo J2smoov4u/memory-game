@@ -6,9 +6,11 @@ html, body {
   /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;*/
+  margin: 0;
+  height: 100%;
 }
 body {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
 }
 h1 {
@@ -90,5 +92,12 @@ span {
   #game {
     margin: 1rem 0.5rem;
   }
-
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    color:#708090;
+    font-size: 3.5rem;
+    margin: 3rem;
+  }
+  .card {margin: 5px;}
 }
